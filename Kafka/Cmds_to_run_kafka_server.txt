@@ -1,0 +1,26 @@
+
+1.Zookeeper server:
+ -Command to run Zookeeper: C:\kafka_2.12-3.8.0>  .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+ -default Zookeeper server port: 2181
+
+
+2.Kafka server:
+ -Command to run kafka server: C:\kafka_2.12-3.8.0>  .\bin\windows\kafka-server-start.bat .\config\server.properties
+ -default kafka server port: 9092
+
+3.To create topic:
+ -Command to create topics: C:\kafka_2.12-3.8.0\bin\windows>  kafka-topics.bat --create --bootsrap-server localhost:9092 --topic "topic_name"
+
+4.To Kickoff producer function:
+ - C:\kafka_2.12-3.8.0\bin\windows>   kafka-console-producer.bat --broker-list localhost:9092 --topic "topic_name"
+
+5.To Kickoff consumer function:
+ - C:\kafka_2.12-3.8.0\bin\windows>   kafka-console-consumer.bat --topic test --bootstrap-server localhost:9092 --from-beginning
+
+6. To run kafka server without Zookeeper(Kafka with KRaft)
+ - Generate a Cluster UUID :   set KAFKA_CLUSTER_ID=bin\windows\kafka-storage.bat random-uuid
+ - However, since the random-uuid command doesn't work directly in the same way on Windows, try running it separately:   bin\windows\kafka-storage.bat random-uuid
+ - This should output a UUID, something like m3TNiD2aTPOWkiVxeEXE4A. Save this UUID manually by running:   set KAFKA_CLUSTER_ID=<your-generated-UUID>
+ - Format Log Directories:  bin\windows\kafka-storage.bat format --cluster-id %KAFKA_CLUSTER_ID% --config config\kraft\server.properties
+ - Start the Kafka Server:  bin\windows\kafka-server-start.bat config\kraft\server.properties
+ 

@@ -1,0 +1,140 @@
+table employee
+emp_id,name , exp , dept_id
+
+table dept
+dept_id, name_dept
+
+to create
+table employee_details
+1. no off emplo in each dept
+2. no off emplo in each dept with highest exp in each dept?
+
+
+CREATE TABLE employee_deatils
+(SELECT name_dept ,Count(*) AS  FROM dept d AND employee e JOIN e.dept_id = d.dept_id GROUP BY d.name_dept)
+
+
+
+SELECT dpt_name , exp AS senior_emplye_exp FROM dept d AND employee e JOIN e.dept_id = d.dept_id GROUP BY e.xp HAVING MAX(e.exp)
+
+
+
+dpt_name , senior_emplye_exp
+HR          
+
+
+
+
+
+class employee_deatilsService(){
+
+@Autowired
+employeeRepo employeerepo;
+
+emplDeailsResponse employeerepo.fintTotalNumOfEmpes();
+
+
+
+}
+
+
+
+@Entityt
+@Table(name="emp")
+Class  employee{
+
+@Id
+@Column(name = "name")
+private int emp_id
+
+@Column(name = "name")
+private String name
+
+@Column(name = "exp")
+private int exp
+
+@Column(name = "dept_id")
+@ManyToOne
+private int dept_id
+
+}
+
+
+
+@Entityt
+@Table(name="dept")
+Class  dept{
+
+@Id
+@Column(name = "dept_id")
+@OneToMany
+private int dept_id
+
+@Column(name = "name_dept")
+private String name_dept
+
+}
+
+
+class employeeRepo implements JpARepository<>(){
+
+@Query("SELECT name_dept ,Count(*) AS  FROM dept d AND employee e JOIN e.dept_id = d.dept_id GROUP BY d.name_dept", native=true)
+emplDeailsResponse fintTotalNumOfEmpes();
+
+}
+
+
+
+class emplDeailsResponse(){
+
+@getter
+@Setter
+private String dpt_name;
+
+@getter
+@Setter
+private String total_empl;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

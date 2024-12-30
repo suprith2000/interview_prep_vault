@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "b37ad8e8d4200c5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8ec6d11a052c9f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "782f1b18655b6f38",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "92bd2723d86c494c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. TUF DSA/5. Arrays/1. easy/4. Two Sum.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Two Sum"
+            }
+          },
+          {
+            "id": "ffa91e24169681df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design/LLD/2. SOLID Principles of OOPs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. SOLID Principles of OOPs"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "928f0bd0cdf0d091",
+    "type": "split",
+    "children": [
+      {
+        "id": "f796e547a320583d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b52ef4eac8aefbfb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "296f05d8ee879ab9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "afa39ce9a92c498b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 393.5
+  },
+  "right": {
+    "id": "f094dcd5bc3c2a0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cf5a8561244701f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48578472aaa0f9ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "4. springboot interview Q&A/1. Basics -  part 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1. Basics -  part 1"
+            }
+          },
+          {
+            "id": "574fa338cab0a3ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "4. springboot interview Q&A/1. Basics -  part 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1. Basics -  part 1"
+            }
+          },
+          {
+            "id": "8c1ff06657331100",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9c86436b34a1183a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "4. springboot interview Q&A/1. Basics -  part 1.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1. Basics -  part 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "b52ef4eac8aefbfb",
+  "lastOpenFiles": [
+    "react-springboot/~$mplate NISHANT CHAHAR RESUME.docx",
+    "oops-bootcamp-practice/oops/static keyword in java.md",
+    "oops-bootcamp-practice/oops/Singleton class in java.md",
+    "oops-bootcamp-practice/oops/polymorphism.md",
+    "oops-bootcamp-practice/oops/oops principles.md",
+    "oops-bootcamp-practice/oops/Interfaces.md",
+    "oops-bootcamp-practice/oops/Generics.md",
+    "oops-bootcamp-practice/oops/Inheritance.md",
+    "oops-bootcamp-practice/oops/Diff btw Abstract Class & Interface.md",
+    "oops-bootcamp-practice/oops/Abstraction.md",
+    "oops-bootcamp-practice/oops/encapsulation.md",
+    "oops-bootcamp-practice/oops/Abstract class.md",
+    "oops-bootcamp-practice/oops",
+    "System Design/LLD/3. Strategy design pattern.md",
+    "System Design/LLD/4. Observer design pattern.md",
+    "System Design/LLD/5. Decorator pattern.md",
+    "1. System design/1. LLD/2.Design patterns/2.Creational patterns/4. Builder pattern.md",
+    "Pasted image 20241230135244.png",
+    "1. System design/1. LLD/2.Design patterns/2.Creational patterns/3. Abstract Factory pattern.md",
+    "1. System design/1. LLD/2.Design patterns/2.Creational patterns/2. Factory method pattern.md",
+    "1. System design/1. LLD/2.Design patterns/2.Creational patterns/1. Singleton pattern.md",
+    "1. System design/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf",
+    "1. System design/Alex Xu_ Sahn Lam - System Design Interview – An Insider's Guide_ Volume 2-ByteByteGo Inc (2023).pdf",
+    "Pasted image 20241230015253.png",
+    "Pasted image 20241230015141.png",
+    "Pasted image 20241230015034.png",
+    "Pasted image 20241230014952.png",
+    "Pasted image 20241230014845.png",
+    "Pasted image 20241230014806.png",
+    "Pasted image 20241230014736.png",
+    "Pasted image 20241230014641.png",
+    "Pasted image 20241230014600.png",
+    "1. System design/1. LLD/2.Design patterns/1.Design patterns - intro.md",
+    "1. System design/1. LLD/2.Design patterns/2.Creational patterns",
+    "1. System design/1. LLD/2.Design patterns",
+    "1. System design/1. LLD/1.resources/research papers/coffee.pdf",
+    "1. System design/1. LLD/1.resources/How to learn LLD.pdf",
+    "System Design/LLD/2. SOLID Principles of OOPs.md",
+    "1. System design/1. LLD/resources/How to learn LLD.pdf.crdownload",
+    "1. System design/1. LLD/1.resources",
+    "1. System design/1. LLD/1.resources/research papers/ecoop93-patterns.pdf",
+    "1. TUF DSA/5. Arrays/1. Level-1.md",
+    "1. TUF DSA/5. Arrays/GFG must do/3. Represent the fraction of two numbers in the string format.md",
+    "1. TUF DSA/5. Arrays/GFG must do/2. Count trailing zeroes in factorial of a number.md",
+    "1. TUF DSA/5. Arrays/GFG must do/1. Missing in Array (Using XOR).md",
+    "1. TUF DSA/3. java collections/1. Basics.md",
+    "Untitled.canvas"
+  ]
+}
